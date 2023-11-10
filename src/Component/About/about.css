@@ -1,0 +1,105 @@
+.about-container {
+  width: 80%;
+  max-width: 992px;
+  height: 150%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 10vh;
+}
+
+.about-container .about-content {
+  display: block;
+  font-size: 14px;
+  line-height: 2;
+  text-align: start;
+  margin-top: 40px;
+  margin-bottom: 20vh;
+}
+
+.about-content .about-details {
+  margin-bottom: 100px;
+}
+
+.about-content .about-image {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-content .about-image img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.about-content .about-image .image-fit {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  max-height: 400px;
+  cursor: pointer;
+}
+
+.about-content .about-image .image-fit img {
+  filter: grayscale(0.5);
+}
+
+.about-content .about-image .image-fit:hover img {
+  filter: grayscale(0);
+}
+
+.about-content .about-image .image-fit::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+}
+
+.stack span {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.stack span svg {
+  color: #0471a3;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 450px) {
+  .about-container .about-content {
+    line-height: 2;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 776px) {
+  .about-container .about-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about-content .about-image {
+    text-align: end;
+  }
+}

@@ -1,0 +1,63 @@
+.contact-section .contact-container {
+  padding: 40px 5px 0;
+}
+
+.contact-section .contact-container .section-topic {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.contact-section .contact-container .text-content-header {
+  text-align: center;
+}
+
+.contact-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container .contact-form input,
+.contact-container .contact-form textarea {
+  padding: 10px;
+  width: 100%;
+  max-width: 1024px;
+  outline: none;
+  background-color: transparent;
+}
+
+#message {
+  height: 150px;
+  overflow: visible;
+}
+
+.btn.form-btn {
+  margin: 15px auto;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.4s ease-in;
+}
+
+.form-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.pop-modal {
+  padding: 1rem;
+  width: 300px;
+  font-size: 1rem;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 20px 30px 0px rgba(153, 153, 153, 0.3);
+  position: fixed;
+  top: 4.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}

@@ -1,0 +1,17 @@
+.ex-container {
+  width: 100%;
+  margin-bottom: 20vh;
+  padding-top: 7vh;
+}
+
+.ex-content {
+  position: relative;
+  width: 80%;
+  max-width: 992px;
+  height: 100%;
+  margin: auto auto 10vh;
+}
+
+.ex-card {
+  text-align: start;
+}

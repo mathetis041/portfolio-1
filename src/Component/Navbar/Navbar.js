@@ -2,7 +2,6 @@ import { useState } from "react";
 import * as RiIcons from "react-icons/ri";
 import { Container, Navbar } from "react-bootstrap-v5";
 import logo from "../../asset/logo.png";
-import CV from "../../asset/resume.pdf";
 import "./navbar.css";
 import ScrollIntoView from "react-scroll-into-view";
 import { motion } from "framer-motion";
@@ -113,9 +112,7 @@ function NavBar() {
                 },
               }}
             >
-              <a className="btn form-btn" href={CV} download="Resume">
-                Resume
-              </a>
+            
             </motion.div>
           </div>
         </Navbar.Collapse>

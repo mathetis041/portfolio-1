@@ -1,5 +1,5 @@
-import * as FiIcons from "react-icons/fi";
 import * as BsIcons from "react-icons/bs";
+import * as FiIcons from "react-icons/fi";
 import * as SiIcons from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -54,13 +54,13 @@ function Footer() {
           </motion.a>
         ))}
       </div>
-      {/* <a
-        href="https://github.com/Michaelajayi150/"
+      <a
+        href="https://github.com/mathetis041"
         target="_blank"
         rel="noreferrer"
         style={{ textDecoration: "none" }}
       >
-      </a> */}
+      </a>
       <p>Built by Matthew Vincent</p>
     </div>
   );

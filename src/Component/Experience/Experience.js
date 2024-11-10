@@ -1,6 +1,9 @@
-import { SplideTrack } from "@splidejs/react-splide";
-import { ExperienceData } from "./ExperienceData";
 import "./experience.css";
+import { SplideTrack } from "@splidejs/react-splide";
+import { motion } from "framer-motion";
+import { ScrollIn } from "../Animation";
+import { ExperienceData } from "./ExperienceData";
+
 import {
   NextArrow,
   PrevArrow,
@@ -8,8 +11,6 @@ import {
   SplideContainer,
   SplideItem,
 } from "./ExperienceStyle";
-import { motion } from "framer-motion";
-import { ScrollIn } from "../Animation";
 
 function Experience() {
   return (
@@ -48,6 +49,14 @@ function Experience() {
                         ))}
                       </ul>
                     </div>
+                    <a
+                      className="btn form-btn"
+                      href={card.certificate}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Certificate
+                    </a>
                   </div>
                 </SplideItem>
               );

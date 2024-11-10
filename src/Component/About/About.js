@@ -1,5 +1,5 @@
-import * as AiIcons from "react-icons/ai";
 import "./about.css";
+import * as AiIcons from "react-icons/ai";
 import { motion } from "framer-motion";
 import { ScrollIn } from "../Animation";
 
@@ -11,6 +11,7 @@ function About() {
     { tag: "JS Frameworks" },
     { tag: "JS Libraries" },
     { tag: "Git" },
+    { tag: "React Storybook" }
   ];
 
   return (
@@ -71,15 +72,15 @@ function About() {
                 </span>
               ))}
             </div>
-            {/*
+
             <a
               className="btn form-btn"
-              href="https://github.com/Michaelajayi150/"
+              href="https://github.com/mathetis041"
               target="_blank"
               rel="noreferrer"
             >
               View Github
-            </a> */}
+            </a>
           </motion.div>
         </motion.div>
       </div>

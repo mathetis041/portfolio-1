@@ -5,7 +5,7 @@ function LinkUp() {
         <p>Want me building websites for you? Hit me up on LinkedIn</p>
         <a
           className="btn form-btn"
-          href="https://www.linkedin.com/in/matthew-vincent-b77a16239"
+          href="https://www.linkedin.com/in/matthew-vincent-frontend-developer"
           target="_blank"
           rel="noreferrer"
         >

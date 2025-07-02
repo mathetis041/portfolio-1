@@ -45,7 +45,7 @@ function Experience() {
                       <p>{card.year}</p>
                       <ul>
                         {card.info.map((item, index) => (
-                          <li key={index}>{item.content}</li>
+                          <li className="py-2" key={index}>{item.content}</li>
                         ))}
                       </ul>
                     </div>
@@ -62,7 +62,6 @@ function Experience() {
               );
             })}
           </SplideTrack>
-
           {/* <span></span> */}
           <SliderButtons className="splide__arrows">
             <PrevArrow className="splide__arrow splide__arrow--prev" />

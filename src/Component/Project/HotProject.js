@@ -31,7 +31,7 @@ function Recent({ data }) {
                 className="repo-link"
                 href={card.source}
                 target="_blank"
-                title="Github Link"
+                title="Github Link or code sample upon request"
                 rel="noreferrer"
               >
                 <VSCIcons.VscGithubAlt size="1.1rem" />

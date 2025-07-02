@@ -19,7 +19,7 @@
   line-height: 2;
   text-align: start;
   margin-top: 40px;
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 
 .about-content .about-details {
@@ -47,11 +47,11 @@
   cursor: pointer;
 }
 
-.about-content .about-image .image-fit img {
+.about-content .about-image {
   filter: grayscale(0.5);
 }
 
-.about-content .about-image .image-fit:hover img {
+.about-content .about-image {
   filter: grayscale(0);
 }
 

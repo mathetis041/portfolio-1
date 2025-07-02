@@ -1,31 +1,31 @@
 export const ExperienceData = [
   {
-    year: "December 2023 - Present",
+    year: "September 2023 - Present",
     company: "DesignGuyLtd",
-    label: "Frontend Developer",
+    label: "Frontend Developer Intern",
     info: [
       {
         content:
-          "▹ Developed and maintained web applications using React and TypeScript, enhancing functionality and user experience.",
+          "▹ Improved SEO performance scores by 35% through semantic HTML, structured data integration, and accessibility-first design.",
       },
       {
-        content: "▹ Built reusable UI components with React Storybook, improving the speed of development and design consistency.",
+        content: "▹ Developed and optimized 10+ responsive, mobile-first web interfaces using React.",
       },
       {
-        content: "▹ Optimized page performance, reducing load times by 20%, which contributed to higher user engagement.",
+        content: "▹ Optimized page performance, reducing load times by 25%, which contributed to higher user engagement.",
       },
       {
-        content: "▹ Collaborated closely with the design team, ensuring alignment with brand guidelines and accessibility standards.",
+        content: "▹Collaborated on 3+ API-intensive modules, implementing clean data fetching strategies with Axios and React Query to ensure smooth, dynamic content rendering.",
       },
       {
-        content: "▹ Technologies Used: React, TypeScript, Storybook, Git, SEO optimization.",
+        content: "▹Contributed to 10+ agile sprints and participated in weekly peer code reviews for continuous improvement.",
       },
     ],
     certificate: "",
   },
   {
     //you have not completed this, wrong year and info 
-    year: "October 2023 - November 2023",
+    year: "December 2023 - January 2024",
     company: "IBM - Developing Frontend App With React",
     label: "Learned from",
     info: [
@@ -151,7 +151,7 @@ export const ExperienceData = [
     certificate: "https://drive.google.com/file/d/1YC_b0C2wfHBSddddLPTSLKJzbeZlRWuO/view?usp=drive_link",
   },
   {
-    year: "April 2022 - June 2022",
+    year: "June 2022 - June 2022",
     company: "Udacity - Web Development",
     label: "Learned From",
     info: [
@@ -180,23 +180,23 @@ export const ExperienceData = [
   {
     year: "June 2022 - August 2022",
     company: "ZURI X 14G",
-    label: "Intern",
+    label: "Internship Program",
     info: [
       {
         content:
-          "▹ Conducted testing across various browsers and devices to ensure cross-browser compatibility and mobile responsiveness.",
+          "▹ Built and deployed a live fullstack app with a cross-functional team of 5+ developers and designers.",
       },
       {
         content:
-          "▹ Collaborated closely with designers and the management team to develop, document, and manage an audio converter website using JavaScript.",
+          "▹ Demoed live to panelists at the close of a 3-month developer program.",
       },
       {
         content:
-          "▹Launched my programming career at ZURI X 14G, where I assisted in the development of their official website, gaining foundational skills and hands-on experience.",
+          "▹Collaborated with 14+ cross-functional team members, including designers, backend devs, and PMs in a simulated remote work environment.",
       },
       {
         content:
-          "▹ Created and implemented responsive layouts to ensure a seamless experience on both desktop and mobile platforms.",
+          "▹Implemented 3+ frontend components using HTML, CSS, and JavaScript to deliver seamless user experiences.",
       },
       {
         content:
@@ -204,7 +204,7 @@ export const ExperienceData = [
       },
       {
         content:
-          "▹ Documented code changes and updates, contributing to project documentation for easier maintenance and handover.",
+          "▹ Completed 8+ real-world project tasks under strict deadlines as part of a fast-paced remote development program.",
       },
     ],
     certificate: "https://drive.google.com/file/d/1OKbUBrlFHllL0t1XGfjmONQIuLJgUMSe/view?usp=drive_link",

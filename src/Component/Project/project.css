@@ -70,6 +70,7 @@
 .project-card:nth-of-type(n) .card-detail {
   grid-column: 1/-1;
 }
+
 .project-card:nth-of-type(n) .card-image {
   grid-column: 1/-1;
 }
@@ -78,6 +79,7 @@
 .project-card:nth-of-type(2n) .card-detail {
   grid-column: 1/-1;
 }
+
 .project-card:nth-of-type(2n) .card-image {
   grid-column: 1/-1;
 }
@@ -183,6 +185,7 @@
     grid-column: 1/6;
     text-align: start;
   }
+
   .project-card:nth-of-type(2n) .card-image {
     grid-column: 3/-1;
   }
@@ -229,6 +232,7 @@
   .project-card:nth-of-type(n) .card-detail {
     grid-column: 3/-1;
   }
+
   .project-card:nth-of-type(n) .card-image {
     grid-column: 1/4;
   }
@@ -237,6 +241,7 @@
   .project-card:nth-of-type(2n) .card-detail {
     grid-column: 1/4;
   }
+
   .project-card:nth-of-type(2n) .card-image {
     grid-column: 3/-1;
   }

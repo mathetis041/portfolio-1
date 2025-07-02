@@ -1,5 +1,5 @@
-import * as VSCIcons from "react-icons/vsc";
 import * as AiIcons from "react-icons/ai";
+import * as VSCIcons from "react-icons/vsc";
 import { motion } from "framer-motion";
 
 function Other({ data }) {

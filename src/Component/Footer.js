@@ -1,7 +1,11 @@
 import * as BsIcons from "react-icons/bs";
+import * as FaIcons from "react-icons/fa";
 import * as FiIcons from "react-icons/fi";
 import * as SiIcons from "react-icons/si";
 import { motion } from "framer-motion";
+import { FaFileAlt } from "react-icons/fa";
+
+// import { FaFilePdf } from "react-icons/fa6";
 
 function Footer() {
   const contactLink = [
@@ -15,7 +19,8 @@ function Footer() {
       url: "https://www.frontendmentor.io/profile/mathetis041",
       el: <SiIcons.SiFrontendmentor />,
     },
-    { url: "https://twitter.com/Mathetis3", el: <BsIcons.BsTwitter /> },
+    { url: "", el: <FaFileAlt /> },
+    { url: "github.com/mathetis041", el: <FaIcons.FaGithub /> },
     {
       url: "https://www.linkedin.com/in/matthew-vincent-b77a16239",
       el: <BsIcons.BsLinkedin />,
@@ -55,7 +60,7 @@ function Footer() {
         ))}
       </div>
       <a
-        href="https://github.com/mathetis041"
+        href="https://github.com/mathetis04"
         target="_blank"
         rel="noreferrer"
         style={{ textDecoration: "none" }}

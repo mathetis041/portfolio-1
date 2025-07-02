@@ -1,114 +1,64 @@
 // Recent Thumbs
-import CartThumb from "../../asset/cart_e-commerce.png";
-import PortfolioThumb from "../../asset/portfolio.png";
-import RoyalValueThumb from "../../asset/royal-value.png";
-import AlanNews from "../../asset/alan-ai-news.png";
-import WeatherThumb from "../../asset/weather-check.png";
-import ChefThumb from "../../asset/chef-palace.png";
-import HooBank from "../../asset/hoobank.png";
-import SvgAnimation from "../../asset/svg-animation.png";
-import Metro from "../../asset/metro-crypto.png";
+// import CartThumb from "../../asset/cart_e-commerce.png";
+// import PortfolioThumb from "../../asset/portfolio.png";
+// import RoyalValueThumb from "../../asset/royal-value.png";
+// import AlanNews from "../../asset/alan-ai-news.png";
+// import WeatherThumb from "../../asset/weather-check.png";
+// import ChefThumb from "../../asset/chef-palace.png";
+// import HooBank from "../../asset/hoobank.png";
+// import SvgAnimation from "../../asset/svg-animation.png";
+// import Metro from "../../asset/metro-crypto.png";
 
 // Project Data
 export const HotProject = [
   {
-    image: `${AlanNews}`,
-    imageAlt: "An AI news websites",
+    image: "https://res.cloudinary.com/doijevrqo/image/upload/v1747094847/WhatsApp_Image_2025-05-12_at_20.25.11_hcqvoi.jpg",
+    imageAlt: "A Real Estate App",
     type: "Personal Project",
-    url: "https://ai-alan-news.netlify.app/",
+    // url: "https://rankingamani.com",
+    // source: "",
+    name: "Amani – Real Estate Platform (In Progress)",
+    about:
+      "Amani is an evolving real estate web application designed to eliminate third-party agencies by connecting tenants directly with verified landlords. The platform is currently in active development and focuses on delivering a seamless, secure, and mobile-first rental experience. Key in-progress features include a dynamic property listing system, interactive map integration for location-based discovery, advanced search and filter logic, and a secure landlord verification process—all built for speed, clarity, and trust.",
+    stack: [{ tag: "React" }, { tag: "APIs" }, { tag: "Typescript" }, { tag: "Tailwind" }],
+  },
+  {
+    image: "https://res.cloudinary.com/doijevrqo/image/upload/v1747094847/WhatsApp_Image_2025-05-12_at_20.25.11_hcqvoi.jpg",
+    imageAlt: "",
+    type: "Personal Project",
+    // url: "https://ai-alan-news.netli",
+    // source: "https://github.com/Michaelajayi150/AI-Integrated-News",
+    name: "Basefit – Web3 Fitness Reward App (In Progress)",
+    about:
+      "Basefit is a fitness tracking web application that rewards users with USDT (Tether) for completing daily physical activities such as long-distance walking and full-body workouts. Built with a forward-thinking vision to merge health and decentralized finance, the app motivates users through gamified fitness tracking and transparent token-based incentives.",
+    stack: [{ tag: "Nextjs" }, { tag: "APIs" }, { tag: "Web3" }, { tag: "" }],
+  },
+  {
+    image: "https://res.cloudinary.com/doijevrqo/image/upload/v1747094847/WhatsApp_Image_2025-05-12_at_20.25.11_hcqvoi.jpg",
+    imageAlt: "A frelance website",
+    // type: "Personal Project",
+    // url: "designguyltd.github.io",
     source: "https://github.com/Michaelajayi150/AI-Integrated-News",
-    name: "Alan AI News",
+    name: "ReevGig",
     about:
       "An Artificial Intelligence website that uses voice recognition and speech to get news report about searches from a News API.",
-    stack: [{ tag: "Vite" }, { tag: "APIs" }, { tag: "AI" }, { tag: "React" }],
-  },
-  {
-    image: `${RoyalValueThumb}`,
-    imageAlt: "A transport website",
-    type: "Featured Project",
-    url: "https://michaelajayi150.github.io/Royal-Value-Logistics/index.html",
-    source: "https://github.com/Michaelajayi150/Royal-Value-Logistics",
-    name: "Ride Express",
-    about:
-      "Landing page for a transport website, it showcase's what services they offer and features they gives as a transport company in Nigeria.",
-    stack: [
-      { tag: "CSS" },
-      { tag: "JavaScript" },
-      { tag: "HTML" },
-      { tag: "Git" },
-    ],
-  },
-  {
-    image: `${HooBank}`,
-    imageAlt: "A Modern Bank UI Landing Page",
-    type: "Personal Project",
-    url: "https://hoobank-3d.netlify.app/",
-    source: "https://github.com/Michaelajayi150/HooBank-3D",
-    name: "HooBank",
-    about:
-      "Single page, landing page for a modern bank. A responsive website that showcase's all the bank offers and so on.",
-    stack: [
-      { tag: "React" },
-      { tag: "Vite" },
-      { tag: "Styled-Components" },
-      { tag: "Tailwind CSS" },
-    ],
+    stack: [{ tag: "APIs" }, { tag: "Typescript" }, { tag: "React" }, { tag: "Tailwind CSS" }],
   },
 ];
 
 export const ProjectData = [
   {
-    image: `${ChefThumb}`,
+    image: "https://res.cloudinary.com/doijevrqo/image/upload/v1751483632/logo512_tfttyl.png",
     imageAlt: "A cooking recipe website",
-    url: "https://michaelajayi150.github.io/Chef-Palace/",
-    source: "https://github.com/Michaelajayi150/Chef-Palace",
+    url: "incomparable-kashata-b55812.netlify.app",
+    source: "https://github.com/mathetis041/Chef-Palace",
     name: "Chef Palace",
     about:
       "Web app built with React, Node.js, and Express for visualizing personalized foods.",
     stack: [{ tag: "React" }, { tag: "Styled Components" }, { tag: "Splide" }],
   },
   {
-    image: `${WeatherThumb}`,
-    imageAlt: "A weather checker website",
-    type: "Personal Project",
-    url: "https://weathercheckz.netlify.app/",
-    source: "https://github.com/Michaelajayi150/JS-CHALLENGE-TEST",
-    name: "Weather Checker",
-    about:
-      "A JavaScript snippet to check the weather forecast of anywhere in the world. The snippet make use of a Weather API.",
-    stack: [
-      { tag: "Snippet" },
-      { tag: "APIs" },
-      { tag: "JavaScript" },
-      { tag: "CSS" },
-    ],
-  },
-  {
-    image: `${CartThumb}`,
-    imageAlt: "An e-commerce website",
-    url: "https://cartshoppingdemo.netlify.app",
-    source: "https://github.com/Michaelajayi150/envato-project",
-    name: "Cart E-Commerce",
-    about:
-      "Cart E-commerce site trade accessories, Login with user interfaces and a user dashboard.",
-    stack: [
-      { tag: "CSS" },
-      { tag: "JavaScript" },
-      { tag: "HTML" },
-      { tag: "Netlify" },
-    ],
-  },
-  {
-    image: `${SvgAnimation}`,
-    imageAlt: "Animated SVG",
-    url: "https://svgdrive.netlify.app/",
-    source: "https://github.com/Michaelajayi150/SVG-Animated-Background",
-    name: "SVG Animation",
-    about: "An animated background created using SVG and CSS stylng properties",
-    stack: [{ tag: "Snippet" }, { tag: "Pure CSS" }, { tag: "Netlify" }],
-  },
-  {
-    image: `${RoyalValueThumb}`,
+    // image: `${RoyalValueThumb}`,
     imageAlt: "Rick and Morty",
     url: "https://react-rick.netlify.app",
     source: "https://github.com/Michaelajayi150/Reactful-Rick",
@@ -122,25 +72,5 @@ export const ProjectData = [
       { tag: "CSS" },
       { tag: "Fun" },
     ],
-  },
-  {
-    image: `${PortfolioThumb}`,
-    imageAlt: "My Older Portfolio",
-    url: "http://michaelajayi150.github.io/portfolio/",
-    source: "https://github.com/Michaelajayi150/portfolio",
-    name: "Portfolio V1",
-    about:
-      "My personal portfolio that shows my skills, ability, education, experience and services I render.",
-    stack: [{ tag: "React JS" }, { tag: "Bootstrap" }, { tag: "Formik" }],
-  },
-  {
-    image: `${Metro}`,
-    imageAlt: "Metro",
-    url: "https://metrocrypto.netlify.app",
-    source: "https://github.com/Michaelajayi150/JS-CHALLENGE-TEST",
-    name: "Metro Exchange",
-    about:
-      "A crpytocurrency website where you can buy, sell, and trade crypto currencies.",
-    stack: [{ tag: "Angular" }, { tag: "JavaScript" }, { tag: "CSS" }],
   },
 ];

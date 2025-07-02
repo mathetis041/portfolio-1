@@ -1,9 +1,9 @@
+import "./project.css";
+import Other from "./OtherProject";
+import Recent from "./HotProject";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { ScrollIn } from "../Animation";
-import Recent from "./HotProject";
-import Other from "./OtherProject";
-import "./project.css";
 import { HotProject, ProjectData } from "./ProjectData";
 
 function Project() {
@@ -38,7 +38,7 @@ function Project() {
             </b>
             {project ? (
               <>
-                <p className="mt-4">
+                {/* <p className="mt-4">
                   To see more projects I have done, check my{" "}
                   <a
                     className="profile-link"
@@ -49,12 +49,12 @@ function Project() {
                   or{" "}
                   <a
                     className="profile-link"
-                    href="https://github.com/Michaelajayi150"
+                    href="https://github.com/mathetis041"
                   >
                     Github
                   </a>{" "}
                   page
-                </p>
+                </p> */}
                 <Other data={ProjectData} />
               </>
             ) : null}

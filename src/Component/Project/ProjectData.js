@@ -50,7 +50,7 @@ export const ProjectData = [
   {
     image: "https://res.cloudinary.com/doijevrqo/image/upload/v1751483632/logo512_tfttyl.png",
     imageAlt: "A cooking recipe website",
-    url: "incomparable-kashata-b55812.netlify.app",
+    url: "https://incomparable-kashata-b55812.netlify.app",
     source: "https://github.com/mathetis041/Chef-Palace",
     name: "Chef Palace",
     about:
